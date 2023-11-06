@@ -36,3 +36,16 @@ const textOfMethodMaterials =
 const keyWords = 
 `Lorem ipsum \n dolor sit, amet consectetur adipisicing elit. Rerum, numquam maiores iure est quas aliquam! Labore beatae et repellat voluptas ullam natus dolorum fuga possimus!
 Lorem ipsum dolor sit amet consectetur, \n adipisicing elit. Quod error doloremque recusandae magni, natus magnam modi rem cum animi odit eaque aut fugiat est iusto, maiores dolor illum ipsa. Architecto sunt mollitia beatae veritatis eum. Sed omnis reiciendis maiores vero error perspiciatis similique. Provident nostrum tempora temporibus veniam, asperiores omnis?`
+
+const typeOfFirstPageEomOne = 'hexagon' // Может принимать следующие начения "lightning" и "tile" ну и на худой конец "videopage"
+
+const themesOfEOM1 = 
+`theme_1
+theme_2
+theme_3
+theme_5
+theme_4
+theme_6
+theme_7
+theme_8
+theme_9`
