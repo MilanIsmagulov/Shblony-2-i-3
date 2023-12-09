@@ -31,7 +31,6 @@ a{
     grid-template-columns: 1fr 3fr;
 }
 
-
 .profi_logo{
     margin-bottom: 50px;
 }
@@ -86,6 +85,12 @@ a{
     margin-left: 15px;
     width: 500px;
     padding: 10px;
+}
+
+.left_side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .bottom_side{
@@ -209,6 +214,7 @@ a{
 
 .main_content_name{
     margin-top: 25px;
+    margin-right: 25px;
     margin-left: 150px;
     font-size: calc(4vw);
     font-weight: 900;
@@ -217,7 +223,7 @@ a{
 .fgos_and_mdk{
     display: flex;
     margin-left: 150px;
-    
+    margin-right: 20px;
 }
 
 .Profi_logo1{
@@ -225,9 +231,10 @@ a{
 }
 
 .fgos_and_mdk h5{
+    text-wrap: nowrap;
     font-weight: 400;
     font-size: 22px;
-    width: 15vw;
+    width: auto;
     margin-top: 75px;
     padding-bottom: 10px;
     border-bottom: solid 1px;
@@ -236,12 +243,12 @@ a{
 .fgos_text{
     margin-top: 25px;
     font-size: 20px;
-    max-width: 500px;
+    max-width: 300px;
 }
 
 .mdk{
     margin-left: 75px;
-    width: 120px;
+    width: 300px;
 }
 
 .mdk_text{
@@ -249,6 +256,7 @@ a{
     font-size: 20px;
     margin-top: 25px;
     margin-left: 75px;
+    max-width: 300px;
 }
 
 .main_viewport::-webkit-scrollbar-track
@@ -367,8 +375,6 @@ a{
     }
 
     .fgos_and_mdk{
-        display: block;
-        max-width: 250px;
         padding-bottom: 15px;
         margin-top: 25px;
     }
@@ -392,12 +398,12 @@ a{
     }
 
     .mdk{
-        margin-left: 0;
+        margin-left: 50px;
         margin-top: 10px;
     }
     
     .mdk_text{
-        margin-left: 0;
+        margin-left: 50px;
     }
 }
 
@@ -406,8 +412,23 @@ a{
         font-size: 23px;
     }
 
+    .fgos_text{
+        width: 100%;
+        max-width: 100%;
+    }
+    
     .Profi_logo1{
         display: flex;
+    }
+
+    .fgos_and_mdk{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        max-width: 100%;
+        padding-bottom: 15px;
+        margin-top: 25px;
     }
 
     .Profi_logo2{
@@ -464,6 +485,26 @@ a{
 
     .left_side{
         order: 2;
+    }
+    .mdk{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    .mdk_text{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 750px){
+    .fgos_and_mdk{
+        margin-left: 50px;
+        width: 85%;
+        flex-direction: column;
+    }
+    .mdk_text{
+        width: 100%;
+        max-width: 100%;
     }
 }
 

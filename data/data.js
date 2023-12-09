@@ -7,10 +7,10 @@ const typeOfEOM3FromData = 'mini_game' // может принимать знач
 const themeOfDEC = 'Тема ЦОК к примеру она находится в black header и title'
 // Номер ФГОС и Тескт ФГОС
 const numFgos = '№ ФГОС'
-const numFgosTxt = 'Название ФГОС'
+const numFgosTxt = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum.'
 // Номер МДК и Текст МДК
 const numMDK = '№ МДК'
-const numMDKTxt = 'Название МДК'
+const numMDKTxt = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum.'
 // Шаги для ЭОМ 2 используется для PopUp окон
 const textOfStepsInPopUp = 
 `axaxaxaxaxaxa
@@ -35,7 +35,8 @@ const textOfMethodMaterials =
 
 const keyWords = 
 `Lorem ipsum \n dolor sit, amet consectetur adipisicing elit. Rerum, numquam maiores iure est quas aliquam! Labore beatae et repellat voluptas ullam natus dolorum fuga possimus!
-Lorem ipsum dolor sit amet consectetur, \n adipisicing elit. Quod error doloremque recusandae magni, natus magnam modi rem cum animi odit eaque aut fugiat est iusto, maiores dolor illum ipsa. Architecto sunt mollitia beatae veritatis eum. Sed omnis reiciendis maiores vero error perspiciatis similique. Provident nostrum tempora temporibus veniam, asperiores omnis?`
+Lorem ipsum dolor sit amet consectetur, \n adipisicing elit. Quod error doloremque recusandae magni, natus magnam modi rem cum animi odit eaque aut fugiat est iusto, maiores dolor illum ipsa. Architecto sunt mollitia beatae veritatis eum. Sed omnis reiciendis maiores vero error perspiciatis similique. Provident nostrum tempora temporibus veniam, asperiores omnis?
+Lorem ipsum \n dolor sit, amet consectetur adipisicing elit. Rerum, numquam maiores iure est quas aliquam! Labore beatae et repellat voluptas ullam natus dolorum fuga possimus!`
 
 const typeOfFirstPageEomOne = 'hexagon' // Может принимать следующие начения "lightning" и "tile" ну и на худой конец "videopage"
 
