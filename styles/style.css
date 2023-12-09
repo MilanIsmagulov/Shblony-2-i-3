@@ -412,11 +412,7 @@ a{
         font-size: 23px;
     }
 
-    .fgos_text{
-        width: 100%;
-        max-width: 100%;
-    }
-    
+
     .Profi_logo1{
         display: flex;
     }
@@ -463,6 +459,11 @@ a{
         background-size: auto;
     }
 
+    .main_content_name{
+        width: 80%;
+        max-width: 80% !important;
+    }
+
     .main_container{
         grid-template-columns: repeat(1, 1fr);
         grid-auto-flow: row;
@@ -497,9 +498,14 @@ a{
 }
 
 @media (max-width: 750px){
+    .fgos_text{
+        width: 100%;
+        max-width: 100%;
+    }
+    
     .fgos_and_mdk{
         margin-left: 50px;
-        width: 85%;
+        width: 80%;
         flex-direction: column;
     }
     .mdk_text{
