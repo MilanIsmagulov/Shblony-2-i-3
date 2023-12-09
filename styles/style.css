@@ -214,7 +214,7 @@ a{
 
 .main_content_name{
     margin-top: 25px;
-    margin-right: 25px;
+    margin-right: 50px;
     margin-left: 150px;
     font-size: calc(4vw);
     font-weight: 900;
@@ -243,7 +243,7 @@ a{
 .fgos_text{
     margin-top: 25px;
     font-size: 20px;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .mdk{
@@ -256,7 +256,7 @@ a{
     font-size: 20px;
     margin-top: 25px;
     margin-left: 75px;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .main_viewport::-webkit-scrollbar-track

@@ -4,6 +4,8 @@ const nomberOfDEC = 0
 // Тема ЦОК отображается во многих элементах
 const typeOfEOM3FromData = 'mini_game' // может принимать значение test_one_page или test_more_page
 
+const methodRecomendation = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tempore voluptates magnam recusandae porro accusamus.'
+
 const themeOfDEC = 'Тема ЦОК к примеру она находится в black header и title'
 // Номер ФГОС и Тескт ФГОС
 const numFgos = '№ ФГОС'
@@ -40,6 +42,8 @@ Lorem ipsum \n dolor sit, amet consectetur adipisicing elit. Rerum, numquam maio
 
 const typeOfFirstPageEomOne = 'hexagon' // Может принимать следующие начения "lightning" и "tile" ну и на худой конец "videopage"
 
+
+
 const themesOfEOM1 = 
 `theme_1
 theme_2
@@ -49,4 +53,9 @@ theme_4
 theme_6
 theme_7
 theme_8
-theme_9`
+theme_9
+
+
+
+
+`
